@@ -7,8 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 const data = [{
-    Name: 'Praveen',
-    Age: '25'
+    "Sutha Mudittu Po da Thayoli !!!"
 }];
 
 app.get('/app/data', (req, res) => {
