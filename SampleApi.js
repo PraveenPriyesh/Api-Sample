@@ -6,9 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const data = [{
-    "Sutha Mudittu Po da Thayoli !!!"
-}];
+const data = "Sutha Mudittu Po da Thayoli !!!";
 
 app.get('/app/data', (req, res) => {
     res.json(data);
