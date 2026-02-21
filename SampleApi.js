@@ -11,6 +11,7 @@ const data = [{
 app.get('/app/data' , (req , res)=>{
     res.json(data);
 })
+const PORT = process.env.PORT || 7001;
 app.listen(PORT,()=>{
     console.log('Successfully running on the port');
 })
